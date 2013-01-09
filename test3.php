@@ -1,10 +1,12 @@
+<html>
+<body>
+<strong>
 <?php
-for ($i=0; $i<100; $i++){
-    if ($i % 3 == 0) echo "Fiz";
-    if ($i % 5 == 0) echo "Buz";
-    if ($i%3 !=0 && $i%5 != 0) echo $i;
-    echo "<br />";
-}
-echo "<hr />";
+//for($i=0;$i<2;$i++)
+//{
+    echo date("Y/m/d h:i:s");
+//}
 ?>
-</hr>
+</strong>
+</body>
+</html>
