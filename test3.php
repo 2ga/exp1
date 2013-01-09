@@ -1,3 +1,6 @@
+<html>
+<body>
+<strong>
 <?php
 for ($i=0; $i<100; $i++){
     if ($i % 3 == 0) echo "Fiz";
@@ -7,4 +10,6 @@ for ($i=0; $i<100; $i++){
 }
 //echo "<hr />";
 ?>
-</hr>
+</strong>
+</body>
+</html>
