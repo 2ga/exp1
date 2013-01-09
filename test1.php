@@ -1,3 +1,5 @@
-test1
-test123
-test123
+<html>
+<body>
+<?php echo date("Y/m/d h:i:s") ?>
+</body>
+</html>
