@@ -1,10 +1,8 @@
-<html>
-<body>
-<?php
-//for($i=0;$i<2;$i++)
-//{
+<strong>
+for($i=0;$i<2;$i++)
+{
     echo date("Y/m/d h:i:s");
-//}
+}
 ?>
-</body>
-</html>
+</strong>
+</hr>
