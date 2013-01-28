@@ -1,8 +1,8 @@
 <strong>
-//for($i=0;$i<2;$i++)
-//{
-    echo date("Y/m/d h:i:s");
-//}
+for($i=0;$i<2;$i++)
+{
+  date("Y-m-d");
+}
 ?>
 </strong>
 </hr>
