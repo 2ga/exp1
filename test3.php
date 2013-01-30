@@ -2,7 +2,7 @@
 <body>
 <?php
 for ($i=1; $i<101; $i++){
- if($i%8==0){
+ if($i<10 || $i%8==0){
  echo "croak!croak!";
  }elseif($i%3 ==0 && $i%5 == 0){
     echo "Fizzbuzz";
