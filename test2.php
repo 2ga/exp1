@@ -4,8 +4,11 @@
 </head>
 <body>
 <?php
-for($i=1; $i<=100; $i++){
-    echo /*"{$i}. " . */ rand(1,100) . "<br />";
+$number=rand(1,10);
+if($number==1){
+  echo "Atari";
+}else{
+  echo "Hazure";
 }
 ?>
 </body>
