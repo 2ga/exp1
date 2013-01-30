@@ -3,9 +3,10 @@
 <?php
 for ($i=1; $i<101; $i++){
 
-if(ture)){
+if( $i%10 == 6 || ($i>=60 && $i<=69) ){
+    echo "croak!croak!";
  }else{
-    echo $i;
+    echo "FizzBuzz";
  }
  echo "<br>";
 }
