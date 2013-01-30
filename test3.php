@@ -4,7 +4,6 @@
 for ($i=1; $i<101; $i++){
  if((80 <= $i && $i <= 89) || $i<10 || $i%8==0) {
     echo "croak!croak!";
-    echo "croak!croak!";
  }elseif($i%3 ==0 && $i%5 == 0){
     echo "Fizzbuzz";
  }elseif($i % 3 == 0){
