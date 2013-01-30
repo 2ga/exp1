@@ -3,10 +3,10 @@
 <?php
 for ($i=1; $i<101; $i++){
 
-if( $i%10 == 6 || ($i>=60 && $i<=69) ){
+if( $i%10 == 3){
     echo "croak!croak!";
  }else{
-    echo "FizzBuzz";
+    echo $i;
  }
  echo "<br>";
 }
