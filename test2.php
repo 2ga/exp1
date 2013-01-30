@@ -5,9 +5,10 @@
 <body>
 <?php
 $number=rand(1,10);
-if($number==1 || $number==2){
+if($number==3 || $number==8){
   echo "Atari";
-}else{
+} else if ($number==1) {
+} else{
   echo "Hazure";
 }
 ?>
