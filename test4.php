@@ -1,7 +1,1 @@
-
-<i>
-
-<strong><?php echo date("Y/m/d h:i:s")?></strong>
-
-
-</i>
+<?php echo date("Y/m/d h:i:s")?>
